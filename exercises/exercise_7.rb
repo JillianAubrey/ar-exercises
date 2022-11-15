@@ -10,3 +10,10 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+Store.create!(
+  name: "Test", 
+  annual_revenue: 300000, 
+  mens_apparel: false, 
+  womens_apparel: false
+)
